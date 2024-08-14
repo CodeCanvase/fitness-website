@@ -6,10 +6,42 @@
   font-style: normal;
 }
 
+.body{
+    margin: 50px 50px;
+    background-color: black;
+    color: white;
+}
+
+
+/* share styles */
+.btn-primary {
+    color: white;
+    background-color: #E6533C;
+    width: 92px;
+    height: 38px;
+    border: 0px;
+    border-radius: 46px;
+    padding: 8px, 20px, 8px, 20px;
+    gap: 10px;
+}
 
 /* nav styles */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+nav li a {
+   text-decoration: none;
 }
 .nav-title {
     font-weight: 800px;
@@ -17,3 +49,63 @@ nav {
     color: #E6533C;
     font-style: italic;
 }
+
+.menu-radius {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    border-radius:  46px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* mobiel menu style */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+
+/* Responsive for the Mobile */
+@media screen and (max-width: 576px) {
+    .menu-radius {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #333;
+        width: 200px;
+    }
+    .menu-radius.active {
+        display: flex;
+
+    }
+    .menu-radius li {
+        margin: 15px 0;
+        text-align: center;
+    }
+    .menu-toggle {
+        display:flex;
+    }
+    
+}
+    
