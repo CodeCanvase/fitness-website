@@ -1,10 +1,22 @@
 
+
+/* text font add */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
 }
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
 
 .body{
     margin: 50px 50px;
@@ -84,6 +96,69 @@ nav ul li a {
 }
 
 
+
+/* hero section design */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.hero-section-content > * {
+    margin-bottom: 20px;
+}
+
+.hero-section-title {
+    font-size: 78px;
+    font-weight: 900px;
+}
+
+
+.hero-section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
+.hero-buttons {
+    display: flex;
+    gap: 20p0x;
+}
+
+.btn-hero{
+    color: white;
+    background-color: #E6533C;
+    width: 210px;
+    height: 38px;
+    border: 0px;
+    border-radius: 46px;
+    padding: 16px, 40px, 16px, 40px;
+    gap: 10px;
+    font: 16px;
+}
+.btn-hero2{
+    color: white;
+    background-color: transparent;
+    width: 210px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 46px;
+    padding: 16px, 40px, 16px, 40px;
+    font: 16px;
+}
+
+
+.hero-profile{
+    size: 350px;
+
+}
+
+
+
+
+
 /* Responsive for the Mobile */
 @media screen and (max-width: 576px) {
     .menu-radius {
@@ -106,6 +181,61 @@ nav ul li a {
     .menu-toggle {
         display:flex;
     }
+
+    /* for the hero section */
+
+    .hero-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    .hero-section-title {
+        font-size: 30px;
+        font-weight: 900px;
+    }
+
+    .hero-section-description{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        ;
+    }
+    .hero-buttons {
+        display: flex;
+        align-items: center;
+        gap: 20px 0 20px 0;
+    }
+    
+    .btn-hero{
+        color: white;
+        background-color: #E6533C;
+        width: 210px;
+        height: 38px;
+        border: 0px;
+        border-radius: 46px;
+        padding: 16px, 40px, 16px, 40px;
+        gap: 10px;
+        font: 16px;
+        margin: 10px 0px 10px 0;
+    }
+    .btn-hero2{
+        color: white;
+        background-color: transparent;
+        width: 210px;
+        height: 38px;
+        border: 1px solid white;
+        border-radius: 46px;
+        padding: 16px, 40px, 16px, 40px;
+        font: 16px;
+    }
+    
+    
+    .hero-profile{
+        size: 250px;
+    
+    }
+    
     
 }
     
