@@ -37,6 +37,22 @@
     gap: 10px;
 }
 
+
+.title-primary {
+    align-items: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.description-primary {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+    
+}
+
 /* nav styles */
 nav {
     display: flex;
@@ -79,7 +95,7 @@ nav ul li a {
     color: white;
 }
 
-/* mobiel menu style */
+/* Mobile menu style */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -195,24 +211,59 @@ nav ul li a {
 /* habit section design */
 
 .habits {
-    text-align: center;
-    margin-top: 50px;
-    gap: 5px;
+    align-items: center;
+    margin: 20px 20px;
+
+    
 }
 .habits-title{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
     font-size: 48px;
     font-weight: 900;
 }
 
 .habits-descriptions {
+    align-items: center;
+    text-align: center;
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     ;
+    margin-bottom: 20px;
 }
 
+/* habit image box  */
 
+.habit-image-box{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+.habit-image-card {
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border: 3px;
+    border-radius: 1000px;
+}
+.habit-box-title {
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
 
+}
+.habit-box-descriptions{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
 
 
 /* Responsive for the Mobile */
@@ -292,6 +343,23 @@ nav ul li a {
     
     }
     
+
+    /* habit section for the mobile responsive */
+
+    .habits-title{
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .habit-image-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 20px;
+    }
     
 }
     
