@@ -373,6 +373,110 @@ nav ul li a {
     background-color: rgba(0, 71, 255, 0.3);
  }
 
+/* BMI Calculator sectionn */
+
+.bmi {
+    
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+    
+}
+
+.bmi-section-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px 50px;
+}
+
+.bmi-title {
+    align-items: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+.bmi-section {
+    text-align: center;
+}
+
+.bmi-chart {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.bmi-chart th, .bmi-chart td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.bmi-chart th {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.bmi-chart tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.bmi-chart tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 80%;
+     margin: 20px;
+}
+
+.signup-form input {
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: transparent;
+}
+.form-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.from-input {
+    width: 48%;
+    padding: 10px;
+}
+.button-container {
+    
+    justify-content: center;
+    width: 100%;
+}
+.btn-form {
+    color: white;
+    background-color: #E6533C;
+    margin: 10px;
+    width: 92px;
+    height: 38px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 16px, 40px, 16px, 40px;
+    gap: 10px;
+}
+
+
 
 
 
@@ -393,6 +497,10 @@ nav ul li a {
         right: 20px;
         background-color: #333;
         width: 200px;
+    }
+
+    .title-primary {
+        font-size: 20px;
     }
     .menu-radius.active {
         display: flex;
@@ -532,8 +640,120 @@ nav ul li a {
         height: 600px;
         
     }
+
+
+
+    /* BMI Calculator sectionn */
+
+.bmi {
+    
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+    
+}
+
+.bmi-section-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px 50px;
+}
+
+.bmi-title {
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.bmi-section {
+    text-align: center;
+}
+
+.bmi-chart {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.bmi-chart th, .bmi-chart td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.bmi-chart th {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.bmi-chart tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.bmi-chart tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 90%;
+     margin: 10px;
+}
+
+.signup-form input {
+    justify-content: center;
+    width: 80%;
+    margin: 10px;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: transparent;
+}
+.form-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.from-input {
+    width: 48%;
+    padding: 10px;
+}
+.button-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.btn-form {
+    color: white;
+    background-color: #E6533C;
+    margin: 10px;
+    width: 92px;
+    height: 38px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 16px, 40px, 16px, 40px;
+    gap: 10px;
+}
+
 }
     
+
+
+
+
+
+
 /* exerciese section design */
 
 
