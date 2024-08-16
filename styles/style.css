@@ -381,6 +381,8 @@ nav ul li a {
 
 
 
+
+
 /* Responsive for the Mobile */
 @media screen and (max-width: 576px) {
     .menu-radius {
@@ -518,8 +520,23 @@ nav ul li a {
         border-radius: 40px;
     
     }
+
+
+
+    .trainings {
+        flex-direction: column;
+        margin: 30px 0 30px 0;
+    }
+    .row {
+        flex-direction: column;
+        height: 600px;
+        
+    }
 }
     
+/* exerciese section design */
+
+
 
 
 /* * Responsive for the Tablet */ *
